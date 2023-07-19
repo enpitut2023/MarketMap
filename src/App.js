@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,9 +7,9 @@ function App() {
         <h1 classname="title">
           Market Map
         </h1>
-        <a>
+        <p>
           This is enPiT2023 project team k
-        </a>
+        </p>
       </header>
     </div>
   );
