@@ -1,15 +1,12 @@
 # MarketMap
 
 Team
-
 スーパー・セネガル
 
 Service 
-
 market map
 
 EVP  
-
 [market map] は
 [スーパーで商品を見つけられないこと]を解決したい
 [新入生などの初めてスーパーを使う筑波大生]向けの
@@ -19,19 +16,9 @@ EVP
 [商品を探し回らない買い物] を実現できます。
 
 Member  
-
-Asadan(PO)
-
-Sumi-chan(SM)
-
-Hara-chan
-
-Ten-chan
-
-Yumo
+Asadan(PO), Sumi-chan(SM), Hara-chan, Ten-chan, Yumo
 
 Miro Team url
-
 https://miro.com/app/board/uXjVM4W_zWE=/
 
 Product Back Log
