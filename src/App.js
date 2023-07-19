@@ -9,7 +9,7 @@ function App() {
           Market Map
         </h1>
         <a>
-          This is enPiT2023 project team k
+          This is enPiT2023 project team K
         </a>
       </header>
     </div>
