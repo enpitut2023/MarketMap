@@ -10,6 +10,7 @@ function App() {
         </h1>
         <a>
           This is enPiT2023 project team K
+          スーパーセネガル
         </a>
       </header>
     </div>
