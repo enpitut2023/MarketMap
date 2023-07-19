@@ -7,9 +7,9 @@ function App() {
         <h1 classname="title">
           Market Map
         </h1>
-        <a>
+        <p>
           This is enPiT2023 project team K
-        </a>
+        </p>
       </header>
     </div>
   );
