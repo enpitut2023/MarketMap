@@ -10,6 +10,7 @@ function App() {
         <p>
           This is enPiT2023 project team K
         </p>
+        <p>スーパー・セネガル</p>
       </header>
     </div>
   );
