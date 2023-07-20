@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image
+import pandas as pd
+
 
 app = FastAPI()
 
@@ -32,16 +34,15 @@ def map():
     scale = 0.3
     logo_resized = logo.resize((int(logo_w * scale), int(logo_h * scale)))
 
-    data = [["醤油", "調味料", 300, 520],
-            ["牛肉", "肉", 1500, 1000],
-            ["マヨネーズ", "調味料", 2300, 1300], #商品名,カテゴリ名,x座標,y座標
-            ["鮭", "魚", 2000, 700]]
+    csv_file_path = 'sample.csv'
+    df = pd.read_csv(csv_file_path, header = None) #pandasを使ってCSVファイルを読み込み、DataFrameオブジェクトとして記憶する
+    data = df.values #DataFrameを配列に転換する
 
-    n = 4 #表示件数
+    n = len(data) #表示件数
 
     for i in range(n):
-        x = data[i][2]
-        y = data[i][3]
+        x = data[i][3]
+        y = data[i][4]
         base.paste(logo_resized, (x, y), logo_resized)
 
     base.save(out_path)
