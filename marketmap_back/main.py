@@ -47,3 +47,9 @@ def map():
     base.save(out_path)
     
     return FileResponse(out_path, media_type="image/png")
+
+@app.get("/image/white")
+def whitemap():
+    Image.open('map_master.png').convert('RGB').save('map_master.jpeg')
+    path = "map_master.jpeg"
+    return FileResponse(path, media_type="image/jpeg")
